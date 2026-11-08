@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Produtos — ARENA WEAR</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/store/assets/css/store.css"
+    >
+</head>
+
+<body data-page="catalog">
+
+    <div class="announcement">
+        ARENA WEAR · STREET CULTURE
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+
+            <a class="logo" href="index.html">
+                ARENA WEAR
+                <small>STREET CULTURE</small>
+            </a>
+
+            <div class="navlinks">
+                <a href="products.html">Coleção</a>
+                <a href="products.html?category=Camisetas">Camisetas</a>
+                <a href="products.html?category=Moletons">Moletons</a>
+            </div>
+
+            <div class="navtools">
+                <a href="login.html">Entrar</a>
+                <a href="account.html">Conta</a>
+                <a href="cart.html">
+                    Sacola (<span data-cart-count>0</span>)
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="wrap">
+
+        <div class="page-title">
+            <div class="eyebrow">ARENA WEAR / SHOP</div>
+
+            <h1>A coleção.</h1>
+
+            <p>
+                Encontre as peças que acompanham seu ritmo.
+            </p>
+        </div>
+
+        <div class="filters">
+            <input
+                id="search"
+                placeholder="Buscar produtos..."
+            >
+
+            <select id="category">
+                <option value="">Todas as categorias</option>
+                <option>Camisetas</option>
+                <option>Moletons</option>
+                <option>Calças e bermudas</option>
+            </select>
+        </div>
+
+        <div class="product-grid" id="catalog"></div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-inner">
+
+            <div>
+                <a class="logo" href="index.html">
+                    ARENA WEAR
+                </a>
+
+                <p>Streetwear para sua própria rota.</p>
+            </div>
+
+            <div>
+                <h4>LOJA</h4>
+                <a href="products.html">Coleção</a>
+                <br>
+                <a href="cart.html">Sacola</a>
+            </div>
+
+            <div>
+                <h4>CLIENTE</h4>
+                <a href="account.html">Minha conta</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © ARENA WEAR
+        </div>
+
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="/static/store/assets/js/store.js"></script>
+
+</body>
+</html>
